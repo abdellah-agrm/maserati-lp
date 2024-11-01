@@ -37,7 +37,7 @@ export default function Models() {
               <img src={item.img} className='w-full h-full object-cover object-center' alt="maserati" />
             </div>
 
-            <div className={`flex flex-col justify-center gap-4 px-20 py-8 max-md:p-10 w-1/2 max-md:w-full max-md:order-1 ${isEven(index) ? "order-2" : "order-1"}`}>
+            <div className={`flex flex-col justify-center gap-4 px-20 py-8 max-md:p-10 w-1/2 max-md:w-full max-md:order-1 bg-black ${isEven(index) ? "order-2" : "order-1"}`}>
               <h2 className='text-5xl max-md:text-4xl font-semibold'>{item.name}</h2>
               <p className='text-2xl max-md:text-lg'>{t(item.details)}</p>
               <button className='py-2 px-5 border border-white rounded-full bg-none hover:bg-white/15 w-max mt-3 cursor-pointer text-xl max-md:text-lg font-semibold'>Look</button>
