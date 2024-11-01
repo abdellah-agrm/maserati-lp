@@ -28,7 +28,7 @@ export default function Header() {
     <div className='flex flex-wrap justify-end gap-4 items-center p-2'>
       <div className='w-1/2 max-md:w-full flex justify-between'>
       <img src={maseratilogo} className='h-20 w-auto' alt='logo' />
-      <button className='mx-8 font-semibold' onClick={() => switchLanguage(isEng ? "fr" : "en")}>{t(isEng ? "french" : "english")}</button>
+      <button className='mx-8 font-semibold' onClick={() => switchLanguage(isEng ? "fr" : "en")}>{t(isEng ? "english" : "french" )}</button>
       </div>
     </div>
   )
